@@ -1,0 +1,71 @@
+package com.dgcustomer.testScript;
+
+import org.testng.annotations.Test;
+
+import com.dgcustomer.base.BaseTest;
+import com.dgcustomer.payload.OneWay;
+import com.dgcustomer.payload.RoundTrip;
+
+public class RoundTripTest extends BaseTest{
+	@Test(priority=1) //RoundTrip Schedule test script
+	public void testScheduleRideForRoundTrip() throws InterruptedException {
+		
+		logger.info("***Schedule Ride Flow Started***");
+		RoundTrip rt=new RoundTrip(driver);
+		OneWay onw=new OneWay(driver);
+		Thread.sleep(5000);
+		rt.clickRoundTripBtn();
+		rt.selectCurrentLocation();		
+		rt.clickScheduleRideBtn();
+		rt.clickSelectDateAndTime();
+		rt.selectTodayDate();
+		//rt.clickRescheduleSelectDateBtn();
+		rt.clickSelectTimeBtn();
+		rt.clickDriverUsage();
+		rt.selectDriverUsage2hr();
+		rt.clickCarType();
+		onw.scrollDown();
+		rt.selectSUV();
+		rt.clickContinueBtn();
+		Thread.sleep(3000);
+		rt.clickConfirmContinueBtn();
+		onw.scrollDown();
+		rt.clickConfirmContinueBtn();
+		logger.info("***Schedule ride succesful***");
+	}
+	@Test(priority=2) //RoundTrip Reschedule test Script
+	public void testRescheduleRideForRoundTrip() throws InterruptedException {
+		logger.info("***Reschedule Flow Started***");
+		RoundTrip rt=new RoundTrip(driver);
+		OneWay onw=new OneWay(driver);
+		onw.scrollDown();
+        
+        rt.clickRescheduleBtn();
+        rt.clickRescheduledDate();
+        rt.clickRescheduleSelectDateBtn();
+        //sow.selectRescheduleHour();
+        //sow.selectRescheduleMinute();
+        //sow.selectRescheduleAP();
+        rt.clickRescheduleSelectTimeBtn();
+        Thread.sleep(7000);
+        rt.clickRescheduleOkayBtn();
+        
+        rt.clickConfirmContinueBtn();
+        Thread.sleep(3000);
+        logger.info("***Reschedule successfull***");
+	}
+	@Test(priority=3) //Round Trip Cancel Test Script
+	public void testCancelRideForRoundTrip() throws InterruptedException {
+		logger.info("***Cancel Ride Started***");
+    	RoundTrip rt=new RoundTrip(driver);
+    	OneWay onw=new OneWay(driver);
+        Thread.sleep(2000);
+        onw.scrollDown();
+        rt.clickCancelRide();
+        rt.clickCancelOption();
+        rt.selectCancelReason();
+        rt.confirmCancelYes();
+        logger.info("***Cancel Succesful***");
+	}
+
+}

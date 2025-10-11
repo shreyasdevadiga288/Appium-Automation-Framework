@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-11T13:17:07 IST" name="Default suite" finished-at="2025-10-11T13:18:28 IST" duration-ms="81152">
+    <groups>
+    </groups>
+    <test started-at="2025-10-11T13:17:07 IST" name="Default test" finished-at="2025-10-11T13:18:28 IST" duration-ms="81152">
+      <class name="com.dgcustomer.testScript.OutStationOneWayTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:17:06 IST" name="setupReport" finished-at="2025-10-11T13:17:07 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:17:07 IST" name="setUp" finished-at="2025-10-11T13:17:31 IST" duration-ms="23701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:17:31 IST" name="startTest" finished-at="2025-10-11T13:17:31 IST" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.OutStationOneWayTest.testOutStationOneWay() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testOutStationOneWay()[pri:1, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:17:31 IST" name="testOutStationOneWay" finished-at="2025-10-11T13:18:02 IST" duration-ms="30674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOutStationOneWay -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:18:02 IST" name="captureResult" finished-at="2025-10-11T13:18:02 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOutStationOneWay status=SUCCESS method=OutStationOneWayTest.testOutStationOneWay()[pri:1, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:18:02 IST" name="startTest" finished-at="2025-10-11T13:18:02 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.OutStationOneWayTest.testOutStationOneWayReschedule() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testOutStationOneWayReschedule()[pri:2, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:18:02 IST" name="testOutStationOneWayReschedule" finished-at="2025-10-11T13:18:20 IST" duration-ms="17675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOutStationOneWayReschedule -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:18:20 IST" name="captureResult" finished-at="2025-10-11T13:18:20 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOutStationOneWayReschedule status=SUCCESS method=OutStationOneWayTest.testOutStationOneWayReschedule()[pri:2, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:18:20 IST" name="startTest" finished-at="2025-10-11T13:18:20 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.OutStationOneWayTest.testOutStationOneWayCancel() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testOutStationOneWayCancel()[pri:3, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:18:20 IST" name="testOutStationOneWayCancel" finished-at="2025-10-11T13:18:27 IST" duration-ms="7560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOutStationOneWayCancel -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:18:27 IST" name="captureResult" finished-at="2025-10-11T13:18:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOutStationOneWayCancel status=SUCCESS method=OutStationOneWayTest.testOutStationOneWayCancel()[pri:3, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:18:27 IST" name="tearDown" finished-at="2025-10-11T13:18:28 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@7fd50002]" started-at="2025-10-11T13:18:28 IST" name="flushReport" finished-at="2025-10-11T13:18:30 IST" duration-ms="1726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.dgcustomer.testScript.OutStationOneWayTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

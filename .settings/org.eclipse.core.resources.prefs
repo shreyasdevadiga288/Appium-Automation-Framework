@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/test/java/com/dgcustomer/base/BaseTest.java=UTF-8
+encoding//src/test/java/com/dgcustomer/payload/OneWay.java=UTF-8
+encoding//src/test/java/com/dgcustomer/payload/RoundTrip.java=UTF-8
+encoding//src/test/java/com/dgcustomer/utilities/ExtentReportManager.java=UTF-8
