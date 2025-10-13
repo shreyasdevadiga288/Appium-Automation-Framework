@@ -8,7 +8,7 @@ import com.dgcustomer.payload.RoundTrip;
 import com.dgcustomer.utilities.WaitUtils;
 
 public class RoundTripTest extends BaseTest{
-	//@Test(priority=1) //RoundTrip Schedule test script
+	@Test(priority=1) //RoundTrip Schedule test script
 	public void testScheduleRideForRoundTrip() throws InterruptedException {
 		
 		logger.info("***Schedule Ride Flow Started***");
@@ -57,7 +57,7 @@ public class RoundTripTest extends BaseTest{
         WaitUtils.waitForSeconds(3);
         logger.info("***Reschedule successfull***");
 	}
-	//@Test(priority=3) //Round Trip Cancel Test Script
+	@Test(priority=3) //Round Trip Cancel Test Script
 	public void testCancelRideForRoundTrip() throws InterruptedException {
 		logger.info("***Cancel Ride Started***");
     	RoundTrip rt=new RoundTrip(driver);

@@ -33,6 +33,7 @@ public class BaseTest {
 
     @BeforeClass
     public void setUp() throws Exception {
+    	logger.info("***Test Started***");
         driver = DriverFactory.getDriver();
     }
 
@@ -49,6 +50,7 @@ public class BaseTest {
             String screenshotPath = takeScreenshot(result.getName());
             extentTest.fail("Test Failed: " + result.getThrowable())
 			          .addScreenCaptureFromPath(screenshotPath);
+            logger.info("**Test Failed****");
         } else if (result.getStatus() == ITestResult.SUCCESS) {
             extentTest.pass("Test Passed");
         } else if (result.getStatus() == ITestResult.SKIP) {
@@ -59,6 +61,7 @@ public class BaseTest {
     @AfterClass
     public void tearDown() {
         DriverFactory.quitDriver();
+        logger.info("*** Test Ended ***");
     }
 
     @AfterSuite
@@ -68,7 +71,7 @@ public class BaseTest {
         }
     }
 
-    // 🔹 Screenshot utility
+    // Screenshot utility
     public String takeScreenshot(String testName) {
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String path = "test-output/screenshots/" + testName + "_" + timestamp + ".png";
