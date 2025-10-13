@@ -7,6 +7,7 @@ import com.dgcustomer.base.BaseTest;
 import com.dgcustomer.payload.OneWay;
 import com.dgcustomer.payload.OutStationOneWay;
 import com.dgcustomer.payload.OutStationRoundTrip;
+import com.dgcustomer.utilities.WaitUtils;
 
 import io.appium.java_client.AppiumDriver;
 
@@ -15,12 +16,12 @@ public class OutStationOneWayTest extends BaseTest {
 	public void testOutStationOneWay() throws InterruptedException {
 		OutStationOneWay oso=new OutStationOneWay(driver);
 		OneWay onw=new OneWay(driver);
-		Thread.sleep(5000);
+		WaitUtils.waitForSeconds(5);
 		oso.clickOutStationBtn();
 		oso.enterFromLocation();
 		oso.selectCurrentLocation();
 		oso.enterDestination("Mangaluru");
-		Thread.sleep(2000);
+		WaitUtils.waitForSeconds(2);
         oso.selectSuggestion();
 		oso.clickScheduleRideBtn();
 		oso.clickOneWayBtn();
@@ -34,7 +35,7 @@ public class OutStationOneWayTest extends BaseTest {
 		onw.scrollDown();
 		oso.selectSUV();
 		oso.clickContinueBtn();
-		Thread.sleep(3000);
+		WaitUtils.waitForSeconds(3);
 		oso.clickConfirmContinueBtn();
 		onw.scrollDown();
 		oso.clickConfirmContinueBtn();
@@ -43,6 +44,7 @@ public class OutStationOneWayTest extends BaseTest {
 	public void testOutStationOneWayReschedule() throws InterruptedException {
 		OutStationOneWay oso=new OutStationOneWay(driver);
 		OneWay onw=new OneWay(driver);
+		WaitUtils.waitForSeconds(2);
 		onw.scrollDown();
         
         oso.clickRescheduleBtn();
@@ -52,17 +54,17 @@ public class OutStationOneWayTest extends BaseTest {
         //sow.selectRescheduleMinute();
         //sow.selectRescheduleAP();
         oso.clickRescheduleSelectTimeBtn();
-        Thread.sleep(7000);
+        WaitUtils.waitForSeconds(5);
         oso.clickRescheduleOkayBtn();
         
         oso.clickConfirmContinueBtn();
-        Thread.sleep(3000);
+        
 	}
 	@Test(priority=3)
 	public void testOutStationOneWayCancel() throws InterruptedException {
 		OutStationOneWay oso=new OutStationOneWay(driver);
 		OneWay onw=new OneWay(driver);
-		Thread.sleep(2000);
+		WaitUtils.waitForSeconds(2);
         onw.scrollDown();
         oso.clickCancelRide();
         oso.clickCancelOption();

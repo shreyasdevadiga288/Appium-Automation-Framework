@@ -6,18 +6,19 @@ import com.dgcustomer.base.BaseTest;
 import com.dgcustomer.payload.OneWay;
 import com.dgcustomer.payload.OutStationRoundTrip;
 import com.dgcustomer.payload.RoundTrip;
+import com.dgcustomer.utilities.WaitUtils;
 
 public class OutStationRoundTriptest extends BaseTest{
 	@Test(priority=1) //outstation round trip flow
 	public void testOutStatioRoundTrip() throws InterruptedException {
 		OutStationRoundTrip osr=new OutStationRoundTrip(driver);
 		OneWay onw=new OneWay(driver);
-		Thread.sleep(5000);
+		WaitUtils.waitForSeconds(5);
 		osr.clickOutStationBtn();
 		osr.enterFromLocation();
 		osr.selectCurrentLocation();
 		osr.enterDestination("Mysuru");
-		Thread.sleep(2000);
+		WaitUtils.waitForSeconds(2);
         osr.selectSuggestion();
 		osr.clickScheduleRideBtn();
 		osr.clickSelectDateAndTime();
@@ -30,7 +31,7 @@ public class OutStationRoundTriptest extends BaseTest{
 		onw.scrollDown();
 		osr.selectSUV();
 		osr.clickContinueBtn();
-		Thread.sleep(3000);
+		WaitUtils.waitForSeconds(3);
 		osr.clickConfirmContinueBtn();
 		onw.scrollDown();
 		osr.clickConfirmContinueBtn();
@@ -39,6 +40,7 @@ public class OutStationRoundTriptest extends BaseTest{
 	public void testOutStationRoundTripReschedule() throws InterruptedException {
 		OutStationRoundTrip osr=new OutStationRoundTrip(driver);
 		OneWay onw=new OneWay(driver);
+		WaitUtils.waitForSeconds(2);
 		onw.scrollDown();
         
         osr.clickRescheduleBtn();
@@ -48,17 +50,17 @@ public class OutStationRoundTriptest extends BaseTest{
         //sow.selectRescheduleMinute();
         //sow.selectRescheduleAP();
         osr.clickRescheduleSelectTimeBtn();
-        Thread.sleep(7000);
+        WaitUtils.waitForSeconds(5);
         osr.clickRescheduleOkayBtn();
         
         osr.clickConfirmContinueBtn();
-        Thread.sleep(3000);
+        
 	}
 	@Test(priority=3)
 	public void testOutStationRoundTripCancel() throws Exception{
 		OutStationRoundTrip osr=new OutStationRoundTrip(driver);
 		OneWay onw=new OneWay(driver);
-		Thread.sleep(2000);
+		WaitUtils.waitForSeconds(2);
         onw.scrollDown();
         osr.clickCancelRide();
         osr.clickCancelOption();

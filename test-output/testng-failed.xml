@@ -3,19 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.dgcustomer.testScript.OutStationOneWayTest">
+      <class name="com.dgcustomer.testScript.RoundTripTest">
         <methods>
           <include name="startTest"/>
-          <include name="testOutStationOneWayReschedule"/>
+          <include name="testRescheduleRideForRoundTrip"/>
           <include name="captureResult"/>
-          <include name="testOutStationOneWayCancel"/>
           <include name="flushReport"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testOutStationOneWay"/>
           <include name="setupReport"/>
         </methods>
-      </class> <!-- com.dgcustomer.testScript.OutStationOneWayTest -->
+      </class> <!-- com.dgcustomer.testScript.RoundTripTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

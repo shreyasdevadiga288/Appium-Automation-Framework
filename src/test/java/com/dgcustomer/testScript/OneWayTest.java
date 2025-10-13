@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import com.dgcustomer.base.BaseTest;
 import com.dgcustomer.payload.OneWay;
+import com.dgcustomer.utilities.WaitUtils;
 
 public class OneWayTest extends BaseTest {
 
@@ -13,20 +14,20 @@ public class OneWayTest extends BaseTest {
     public void testHireDriverForOneWay() throws Exception {
 		OneWay sow=new OneWay(driver);
 		logger.info("***Schedule flow started***");
-    	Thread.sleep(5000);
+    	WaitUtils.waitForSeconds(5);
         sow.clickHireDriver();
         sow.clickOneWay();
         sow.enterFromLocation();
         sow.selectCurrentLocation();
         
         sow.enterDestination("Mahalakshmi");
-        Thread.sleep(2000);
+        WaitUtils.waitForSeconds(2);
         sow.selectSuggestion();
         sow.clickScheduleRideBtn();
         sow.clickSelectDateAndTime();
         sow.selectTodayDate();
         sow.clickSelectDateBtn();
-        Thread.sleep(3000);
+        
         sow.clickSelectTimeBtn();
         sow.clickDriverUsage();
         sow.selectDriverUsage2hr();
@@ -35,10 +36,10 @@ public class OneWayTest extends BaseTest {
         sow.selectSUV();
         sow.scrollDown();
         sow.clickContinueBtn();
-        Thread.sleep(3000);
+        WaitUtils.waitForSeconds(3);
         sow.clickConfirmContinueBtn();
         //System.out.println("Preferred Price: " + getBestPrice());
-        Thread.sleep(3000);
+        WaitUtils.waitForSeconds(2);
         //sow.clickFindDriverBtn();
         sow.scrollDown();
         //System.out.println("Final Price: " + getFinalPrice());
@@ -50,6 +51,7 @@ public class OneWayTest extends BaseTest {
 	public void testRescheduleRideForoneWay() throws InterruptedException {
 		logger.info("***Reschedule Started***");
 		OneWay sow=new OneWay(driver);
+		WaitUtils.waitForSeconds(3);
         sow.scrollDown();
         
         sow.clickRescheduleBtn();
@@ -59,11 +61,11 @@ public class OneWayTest extends BaseTest {
         //sow.selectRescheduleMinute();
         //sow.selectRescheduleAP();
         sow.clickRescheduleSelectTimeBtn();
-        Thread.sleep(7000);
+        WaitUtils.waitForSeconds(5);
         sow.clickRescheduleOkayBtn();
         
         sow.clickConfirmContinueBtn();
-        Thread.sleep(3000);
+        WaitUtils.waitForSeconds(3);
         logger.info("***Reschedule successfull***");
 	}
 	
@@ -71,7 +73,7 @@ public class OneWayTest extends BaseTest {
     public void testCancelRideForOneWay() throws Exception{
 		logger.info("***Cancel Ride Started***");
     	OneWay sow=new OneWay(driver);
-        Thread.sleep(2000);
+        WaitUtils.waitForSeconds(2);
         sow.scrollDown();
         sow.clickCancelRide();
         sow.clickCancelOption();

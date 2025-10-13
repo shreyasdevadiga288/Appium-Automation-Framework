@@ -66,7 +66,7 @@ public class OutStationOneWay {
 
 	public void enterDestination(String destination) {
 		driver.findElement(oneWayDestination).click();
-		driver.findElement(oneWayDestination).sendKeys("Mysur");
+		driver.findElement(oneWayDestination).sendKeys("Mangaluru");
 	}
 
 	public void selectSuggestion() {

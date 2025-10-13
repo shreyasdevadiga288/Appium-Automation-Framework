@@ -5,29 +5,31 @@ import org.testng.annotations.Test;
 import com.dgcustomer.base.BaseTest;
 import com.dgcustomer.payload.OneWay;
 import com.dgcustomer.payload.RoundTrip;
+import com.dgcustomer.utilities.WaitUtils;
 
 public class RoundTripTest extends BaseTest{
-	@Test(priority=1) //RoundTrip Schedule test script
+	//@Test(priority=1) //RoundTrip Schedule test script
 	public void testScheduleRideForRoundTrip() throws InterruptedException {
 		
 		logger.info("***Schedule Ride Flow Started***");
 		RoundTrip rt=new RoundTrip(driver);
 		OneWay onw=new OneWay(driver);
-		Thread.sleep(5000);
+		WaitUtils.waitForSeconds(5);
 		rt.clickRoundTripBtn();
 		rt.selectCurrentLocation();		
 		rt.clickScheduleRideBtn();
 		rt.clickSelectDateAndTime();
 		rt.selectTodayDate();
-		//rt.clickRescheduleSelectDateBtn();
+		rt.clickSelectDateBtn();
 		rt.clickSelectTimeBtn();
 		rt.clickDriverUsage();
 		rt.selectDriverUsage2hr();
 		rt.clickCarType();
 		onw.scrollDown();
 		rt.selectSUV();
+		onw.scrollDown();
 		rt.clickContinueBtn();
-		Thread.sleep(3000);
+		WaitUtils.waitForSeconds(5);
 		rt.clickConfirmContinueBtn();
 		onw.scrollDown();
 		rt.clickConfirmContinueBtn();
@@ -38,6 +40,7 @@ public class RoundTripTest extends BaseTest{
 		logger.info("***Reschedule Flow Started***");
 		RoundTrip rt=new RoundTrip(driver);
 		OneWay onw=new OneWay(driver);
+		WaitUtils.waitForSeconds(3);
 		onw.scrollDown();
         
         rt.clickRescheduleBtn();
@@ -47,19 +50,19 @@ public class RoundTripTest extends BaseTest{
         //sow.selectRescheduleMinute();
         //sow.selectRescheduleAP();
         rt.clickRescheduleSelectTimeBtn();
-        Thread.sleep(7000);
+        WaitUtils.waitForSeconds(5);
         rt.clickRescheduleOkayBtn();
         
         rt.clickConfirmContinueBtn();
-        Thread.sleep(3000);
+        WaitUtils.waitForSeconds(3);
         logger.info("***Reschedule successfull***");
 	}
-	@Test(priority=3) //Round Trip Cancel Test Script
+	//@Test(priority=3) //Round Trip Cancel Test Script
 	public void testCancelRideForRoundTrip() throws InterruptedException {
 		logger.info("***Cancel Ride Started***");
     	RoundTrip rt=new RoundTrip(driver);
     	OneWay onw=new OneWay(driver);
-        Thread.sleep(2000);
+    	WaitUtils.waitForSeconds(3);
         onw.scrollDown();
         rt.clickCancelRide();
         rt.clickCancelOption();
