@@ -15,7 +15,7 @@ public class OutStationRoundTrip {
 	private By scheduleRideBtn = By.xpath("//android.widget.Button[@content-desc=\"Schedule Ride\"]");
 	
 	private By selectDateAndTime = By.xpath("//android.view.View[@content-desc=\"Select Date & Time\"]");
-	private By selectTodayDate = By.xpath("//android.view.View[@content-desc=\"Fri, 17 October 2025\"]");
+	private By selectTodayDate = By.xpath("//android.view.View[@content-desc=\"Sun, 23 November 2025\"]");
 	private By selectDateBtn = By.xpath("//android.widget.Button[@content-desc=\"Select Date\"]");
 	private By selectTimeBtn = By.xpath("//android.widget.Button[@content-desc=\"Select Time\"]\r\n"
 			+ "");
@@ -29,7 +29,7 @@ public class OutStationRoundTrip {
 	
 	private By rescheduleBtn=By.xpath("//android.widget.Button[@content-desc=\"Reschedule\"]\r\n"
 			+ "");
-	private By rescheduledDate = By.xpath("//android.view.View[@content-desc=\"Tue, 28 October 2025\"]");
+	private By rescheduledDate = By.xpath("//android.view.View[@content-desc=\"Tue, 25 November 2025\"]");
 	private By rescheduleSelectDateBtn = By.xpath("//android.widget.Button[@content-desc=\"Select Date\"]");
 	private By rescheduleSelectedTimeHour = By.xpath("//android.widget.SeekBar[@content-desc=\"4 o'clock\"]");
 	private By rescheduleSelectedTimeMinute = By.xpath("//android.widget.SeekBar[@content-desc=\"53 minutes\"]");

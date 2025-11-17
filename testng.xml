@@ -2,12 +2,12 @@
 <suite name="DriveGenie Suite">
     <test name="DriveGenie Tests">
         <classes> 
-        	<class name="com.dgcustomer.testScript.LoginORSignUpTest"/>  
-        	<class name="com.dgcustomer.testScript.CreateProfileTest"/>        
+       		<class name="com.dgcustomer.testScript.LoginORSignUpTest"/>
+       		<class name="com.dgcustomer.testScript.CreateProfileTest"/>
             <class name="com.dgcustomer.testScript.OneWayTest"/>
 			<class name="com.dgcustomer.testScript.RoundTripTest"/>    
 			<class name="com.dgcustomer.testScript.OutStationOneWayTest"/>
-			<class name="com.dgcustomer.testScript.OutStationRoundTripTest"/>
+			<class name="com.dgcustomer.testScript.OutStationRoundTriptest"/>
         </classes>
     </test>
 </suite>

@@ -3,19 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.dgcustomer.testScript.OutStationRoundTriptest">
+      <class name="com.dgcustomer.testScript.LoginORSignUpTest">
         <methods>
+          <include name="testEnterNumberLoginWithOtp"/>
           <include name="startTest"/>
           <include name="captureResult"/>
-          <include name="testOutStationRoundTripCancel"/>
           <include name="flushReport"/>
-          <include name="testOutStationRoundTripReschedule"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testOutStatioRoundTrip"/>
           <include name="setupReport"/>
         </methods>
-      </class> <!-- com.dgcustomer.testScript.OutStationRoundTriptest -->
+      </class> <!-- com.dgcustomer.testScript.LoginORSignUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

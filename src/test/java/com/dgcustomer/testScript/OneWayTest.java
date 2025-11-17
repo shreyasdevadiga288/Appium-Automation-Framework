@@ -13,7 +13,7 @@ public class OneWayTest extends BaseTest {
 	@Test(priority=1)  //one way booking flow
     public void testHireDriverForOneWay() throws Exception {
 		OneWay sow=new OneWay(driver);
-		logger.info("***Schedule flow started***");
+		logger.info("One Way Schedule Started");
     	WaitUtils.waitForSeconds(5);
         sow.clickHireDriver();
         sow.clickOneWay();
@@ -44,12 +44,12 @@ public class OneWayTest extends BaseTest {
         sow.scrollDown();
         //System.out.println("Final Price: " + getFinalPrice());
         sow.clickSummaryContinueBtn();   
-        logger.info("***Scheduled Succesfully***");
+        logger.info("One Way schedule Succesful");
     }
 	
 	@Test(priority=2) //Cancel the booking test script
 	public void testRescheduleRideForoneWay() throws InterruptedException {
-		logger.info("***Reschedule Started***");
+		logger.info("One Way Reschedule Started");
 		OneWay sow=new OneWay(driver);
 		WaitUtils.waitForSeconds(3);
         sow.scrollDown();
@@ -66,12 +66,12 @@ public class OneWayTest extends BaseTest {
         
         sow.clickConfirmContinueBtn();
         WaitUtils.waitForSeconds(3);
-        logger.info("***Reschedule successfull***");
+        logger.info("OneWay Reschedule Succesful");
 	}
 	
 	@Test(priority=3) //reschedule the current booking  testcript
     public void testCancelRideForOneWay() throws Exception{
-		logger.info("***Cancel Ride Started***");
+		logger.info("One Way Cancel Ride Started");
     	OneWay sow=new OneWay(driver);
         WaitUtils.waitForSeconds(2);
         sow.scrollDown();
@@ -79,7 +79,7 @@ public class OneWayTest extends BaseTest {
         sow.clickCancelOption();
         sow.selectCancelReason();
         sow.confirmCancelYes();
-        logger.info("***Cancel Succesful***");
+        logger.info("One Way Cancel Succesful");
     }
 	
 

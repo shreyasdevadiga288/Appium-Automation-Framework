@@ -2,6 +2,7 @@ package com.dgcustomer.payload;
 
 import java.time.Duration;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
 import io.appium.java_client.AppiumDriver;
@@ -20,7 +21,7 @@ public class OneWay {
 	private By scheduleRideBtn = By.xpath("//android.widget.Button[@content-desc=\"Schedule Ride\"]");
 
 	private By selectDateAndTime = By.xpath("//android.view.View[@content-desc=\"Select Date & Time\"]");
-	private By selectTodayDate = By.xpath("//android.view.View[@content-desc=\"Fri, 17 October 2025\"]");
+	private By selectTodayDate = By.xpath("//android.view.View[@content-desc=\"Sun, 23 November 2025\"]");
 	private By selectDateBtn = By.xpath("//android.widget.Button[@content-desc=\"Select Date\"]");
 	private By selectTimeBtn = By.xpath("//android.widget.Button[@content-desc=\"Select Time\"]\r\n"
 			+ "");
@@ -39,7 +40,7 @@ public class OneWay {
 
 	private By rescheduleBtn=By.xpath("//android.widget.Button[@content-desc=\"Reschedule\"]\r\n"
 			+ "");
-	private By rescheduledDate = By.xpath("//android.view.View[@content-desc=\"Tue, 28 October 2025\"]");
+	private By rescheduledDate = By.xpath("//android.view.View[@content-desc=\"Tue, 25 November 2025\"]");
 	private By rescheduleSelectDateBtn = By.xpath("//android.widget.Button[@content-desc=\"Select Date\"]");
 	private By rescheduleSelectedTimeHour = By.xpath("//android.widget.SeekBar[@content-desc=\"4 o'clock\"]");
 	private By rescheduleSelectedTimeMinute = By.xpath("//android.widget.SeekBar[@content-desc=\"53 minutes\"]");
@@ -61,7 +62,13 @@ public class OneWay {
 	}
 
 	public void clickOneWay() {
-		driver.findElement(oneWay).click();
+		By oneWayBtn = By.xpath("//android.widget.ImageView[@content-desc='One Way']");
+		try {
+	        driver.findElement(oneWayBtn).click();
+	    } catch (StaleElementReferenceException e) {
+	        // re-find and retry
+	        driver.findElement(oneWayBtn).click();
+	    }
 	}
 
 	public void enterFromLocation() {
@@ -128,9 +135,7 @@ public class OneWay {
 	public void clickConfirmContinueBtn() {
 		driver.findElement(confirmContinueBtn).click();
 	}
-
 	
-
 	public void clickFindDriverBtn() {
 		driver.findElement(FindDriverBtn).click();
 	}
@@ -175,7 +180,6 @@ public class OneWay {
 		driver.findElement(rescheduleOkayBtn).click();
 	}
 	
-
 	public void clickCancelRide() {
 		driver.findElement(cancelRide).click();
 	}

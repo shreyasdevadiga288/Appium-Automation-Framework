@@ -17,12 +17,12 @@ public class RoundTrip {
 	private By scheduleRideBtn = By.xpath("//android.widget.Button[@content-desc=\"Schedule Ride\"]");
 
 	private By selectDateAndTime = By.xpath("//android.view.View[@content-desc=\"Select Date & Time\"]");
-	private By selectTodayDate = By.xpath("//android.view.View[@content-desc=\"Fri, 17 October 2025\"]");
+	private By selectTodayDate = By.xpath("//android.view.View[@content-desc=\"Sun, 23 November 2025\"]");
 	private By selectDateBtn = By.xpath("//android.widget.Button[@content-desc=\"Select Date\"]");
 	private By selectTimeBtn = By.xpath("//android.widget.Button[@content-desc=\"Select Time\"]\r\n"
 			+ "");
 	private By driverUsage = By.xpath("//android.view.View[@content-desc=\"Driver Usage\"]");
-	private By driverUsage2hr = By.xpath("//android.view.View[@content-desc=\"2hrs\"]");
+	private By driverUsage4hr = By.xpath("//android.view.View[@content-desc=\"4hrs\"]");
 	private By carType = By.xpath("//android.view.View[@content-desc=\"Automatic\"]");
 	private By SUV = By.xpath("//android.widget.ScrollView/android.widget.ImageView[1]");
 	private By ContinueBtn = By.xpath("//android.widget.Button[@content-desc=\"Continue\"]");
@@ -36,7 +36,7 @@ public class RoundTrip {
 
 	private By rescheduleBtn=By.xpath("//android.widget.Button[@content-desc=\"Reschedule\"]\r\n"
 			+ "");
-	private By rescheduledDate = By.xpath("//android.view.View[@content-desc=\"Tue, 28 October 2025\"]");
+	private By rescheduledDate = By.xpath("//android.view.View[@content-desc=\"Tue, 25 November 2025\"]");
 	private By rescheduleSelectDateBtn = By.xpath("//android.widget.Button[@content-desc=\"Select Date\"]");
 	private By rescheduleSelectedTimeHour = By.xpath("//android.widget.SeekBar[@content-desc=\"4 o'clock\"]");
 	private By rescheduleSelectedTimeMinute = By.xpath("//android.widget.SeekBar[@content-desc=\"53 minutes\"]");
@@ -101,8 +101,8 @@ public class RoundTrip {
 		driver.findElement(driverUsage).click();
 	}
 
-	public void selectDriverUsage2hr() {
-		driver.findElement(driverUsage2hr).click();
+	public void selectDriverUsage4hr() {
+		driver.findElement(driverUsage4hr).click();
 	}
 
 	public void clickCarType() {

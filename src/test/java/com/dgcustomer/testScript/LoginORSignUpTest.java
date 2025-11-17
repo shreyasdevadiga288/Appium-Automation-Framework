@@ -9,7 +9,7 @@ public class LoginORSignUpTest extends BaseTest {
 
     @Test(priority = 1, description = "Enter the phone number and validate otp")
     public void testEnterNumberLoginWithOtp() {
-        logger.info("*** Starting Login Test with OTP ***");
+        logger.info("Starting Login/SignUp test");
 
         LoginORSignUp login = new LoginORSignUp(driver);
 
@@ -18,9 +18,12 @@ public class LoginORSignUpTest extends BaseTest {
         logger.info("Entered mobile number successfully");
 
         login.clickLogin();
-        logger.info("Clicked Login and Proceed buttons");
-
+        logger.info("Clicked Login/Proceed button");
+        
         WaitUtils.waitForSeconds(10);
-        logger.info("*** OTP screen displayed successfully ***");
+        login.clickProceed();
+        logger.info("OTP verified");
+        
+        logger.info("Login/SignUp page Test Ended");
     }
 }

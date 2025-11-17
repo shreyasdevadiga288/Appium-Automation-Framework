@@ -12,7 +12,7 @@ public class LoginORSignUp {
     private By mobileNumberField = By.xpath("//android.widget.EditText");
     private By checkTC = By.xpath("//android.widget.CheckBox");
     private By loginButton = By.xpath("//android.widget.Button[@content-desc='Login / Signup']");
-    private By proceedBtn = By.xpath("//android.widget.Button[@content-desc='Proceed']");
+    private By proceedBtn = By.xpath("//android.widget.Button[@content-desc='Verify']");
 
     public LoginORSignUp(AppiumDriver driver) {
         this.driver = driver;
@@ -25,7 +25,9 @@ public class LoginORSignUp {
 
     public void clickLogin() {
         WaitUtils.waitForElementClickable(driver, checkTC, 10).click();
-        WaitUtils.waitForElementClickable(driver, loginButton, 10).click();        
+        WaitUtils.waitForElementClickable(driver, loginButton, 10).click();  
+    }
+    public void clickProceed() {
         WaitUtils.waitForElementClickable(driver, proceedBtn, 15).click();
     }
 }

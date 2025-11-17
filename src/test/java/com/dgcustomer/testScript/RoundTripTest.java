@@ -11,7 +11,7 @@ public class RoundTripTest extends BaseTest{
 	@Test(priority=1) //RoundTrip Schedule test script
 	public void testScheduleRideForRoundTrip() throws InterruptedException {
 		
-		logger.info("***Schedule Ride Flow Started***");
+		logger.info("RoundTrip Schedule Started");
 		RoundTrip rt=new RoundTrip(driver);
 		OneWay onw=new OneWay(driver);
 		WaitUtils.waitForSeconds(5);
@@ -23,7 +23,7 @@ public class RoundTripTest extends BaseTest{
 		rt.clickSelectDateBtn();
 		rt.clickSelectTimeBtn();
 		rt.clickDriverUsage();
-		rt.selectDriverUsage2hr();
+		rt.selectDriverUsage4hr();
 		rt.clickCarType();
 		onw.scrollDown();
 		rt.selectSUV();
@@ -33,11 +33,11 @@ public class RoundTripTest extends BaseTest{
 		rt.clickConfirmContinueBtn();
 		onw.scrollDown();
 		rt.clickConfirmContinueBtn();
-		logger.info("***Schedule ride succesful***");
+		logger.info("RoundTrip Schedule succesful***");
 	}
 	@Test(priority=2) //RoundTrip Reschedule test Script
 	public void testRescheduleRideForRoundTrip() throws InterruptedException {
-		logger.info("***Reschedule Flow Started***");
+		logger.info("RoundTrip Reschedule Started");
 		RoundTrip rt=new RoundTrip(driver);
 		OneWay onw=new OneWay(driver);
 		WaitUtils.waitForSeconds(3);
@@ -55,11 +55,11 @@ public class RoundTripTest extends BaseTest{
         
         rt.clickConfirmContinueBtn();
         WaitUtils.waitForSeconds(3);
-        logger.info("***Reschedule successfull***");
+        logger.info("RoundTrip Reschedule successfull");
 	}
 	@Test(priority=3) //Round Trip Cancel Test Script
 	public void testCancelRideForRoundTrip() throws InterruptedException {
-		logger.info("***Cancel Ride Started***");
+		logger.info("RoundTrip Cancel Ride Started");
     	RoundTrip rt=new RoundTrip(driver);
     	OneWay onw=new OneWay(driver);
     	WaitUtils.waitForSeconds(3);
@@ -68,7 +68,7 @@ public class RoundTripTest extends BaseTest{
         rt.clickCancelOption();
         rt.selectCancelReason();
         rt.confirmCancelYes();
-        logger.info("***Cancel Succesful***");
+        logger.info("RoundTrip Cancel Succesful");
 	}
 
 }

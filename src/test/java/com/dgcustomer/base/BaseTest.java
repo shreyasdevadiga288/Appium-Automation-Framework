@@ -16,7 +16,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -24,7 +25,8 @@ public class BaseTest {
     protected AppiumDriver driver;
     protected static ExtentReports extent;
     protected static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
-    protected static final Logger logger = Logger.getLogger(BaseTest.class);
+    protected static final Logger logger = LogManager.getLogger(BaseTest.class);
+
 
     @BeforeSuite
     public void setupReport() {
@@ -33,8 +35,10 @@ public class BaseTest {
 
     @BeforeClass
     public void setUp() throws Exception {
-    	logger.info("***Test Started***");
+    	System.out.println("---------------------------------------------------");
+    	logger.info("*** Test Started ***");
         driver = DriverFactory.getDriver();
+        
     }
 
     @BeforeMethod
@@ -50,7 +54,8 @@ public class BaseTest {
             String screenshotPath = takeScreenshot(result.getName());
             extentTest.fail("Test Failed: " + result.getThrowable())
 			          .addScreenCaptureFromPath(screenshotPath);
-            logger.info("**Test Failed****");
+            logger.info("*** Test Failed ***");
+            System.out.println("---------------------------------------------------");
         } else if (result.getStatus() == ITestResult.SUCCESS) {
             extentTest.pass("Test Passed");
         } else if (result.getStatus() == ITestResult.SKIP) {
@@ -62,6 +67,7 @@ public class BaseTest {
     public void tearDown() {
         DriverFactory.quitDriver();
         logger.info("*** Test Ended ***");
+        System.out.println("---------------------------------------------------");
     }
 
     @AfterSuite

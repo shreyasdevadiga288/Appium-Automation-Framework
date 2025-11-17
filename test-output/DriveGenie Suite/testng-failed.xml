@@ -3,19 +3,44 @@
 <suite name="Failed suite [DriveGenie Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="DriveGenie Tests(failed)">
     <classes>
-      <class name="com.dgcustomer.testScript.OneWayTest">
+      <class name="com.dgcustomer.testScript.RoundTripTest">
         <methods>
+          <include name="testCancelRideForRoundTrip"/>
           <include name="startTest"/>
           <include name="captureResult"/>
+          <include name="testRescheduleRideForRoundTrip"/>
           <include name="flushReport"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testCancelRide"/>
-          <include name="testRescheduleRide"/>
-          <include name="testHireDriver"/>
+          <include name="setupReport"/>
+          <include name="testScheduleRideForRoundTrip"/>
+        </methods>
+      </class> <!-- com.dgcustomer.testScript.RoundTripTest -->
+      <class name="com.dgcustomer.testScript.OutStationOneWayTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="testOutStationOneWayReschedule"/>
+          <include name="captureResult"/>
+          <include name="testOutStationOneWayCancel"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="setupReport"/>
         </methods>
-      </class> <!-- com.dgcustomer.testScript.OneWayTest -->
+      </class> <!-- com.dgcustomer.testScript.OutStationOneWayTest -->
+      <class name="com.dgcustomer.testScript.OutStationRoundTriptest">
+        <methods>
+          <include name="startTest"/>
+          <include name="captureResult"/>
+          <include name="testOutStationRoundTripCancel"/>
+          <include name="flushReport"/>
+          <include name="testOutStationRoundTripReschedule"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testOutStatioRoundTrip"/>
+          <include name="setupReport"/>
+        </methods>
+      </class> <!-- com.dgcustomer.testScript.OutStationRoundTriptest -->
     </classes>
   </test> <!-- DriveGenie Tests(failed) -->
 </suite> <!-- Failed suite [DriveGenie Suite] -->

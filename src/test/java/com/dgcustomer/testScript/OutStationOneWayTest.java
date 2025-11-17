@@ -14,6 +14,7 @@ import io.appium.java_client.AppiumDriver;
 public class OutStationOneWayTest extends BaseTest {
 	@Test(priority=1) //out station one way flow
 	public void testOutStationOneWay() throws InterruptedException {
+		logger.info("Outstation OneWay Schedule Started");
 		OutStationOneWay oso=new OutStationOneWay(driver);
 		OneWay onw=new OneWay(driver);
 		WaitUtils.waitForSeconds(5);
@@ -39,9 +40,11 @@ public class OutStationOneWayTest extends BaseTest {
 		oso.clickConfirmContinueBtn();
 		onw.scrollDown();
 		oso.clickConfirmContinueBtn();
+		logger.info("OutStation OneWay Schedule Ended");
 	}
 	@Test(priority=2)
 	public void testOutStationOneWayReschedule() throws InterruptedException {
+		logger.info("OutStation OneWay Reschedule Started");
 		OutStationOneWay oso=new OutStationOneWay(driver);
 		OneWay onw=new OneWay(driver);
 		WaitUtils.waitForSeconds(2);
@@ -58,10 +61,12 @@ public class OutStationOneWayTest extends BaseTest {
         oso.clickRescheduleOkayBtn();
         
         oso.clickConfirmContinueBtn();
+        logger.info("OutStation OneWay Reschedule Succesful");
         
 	}
 	@Test(priority=3)
 	public void testOutStationOneWayCancel() throws InterruptedException {
+		logger.info("OutStation OneWay Cancel Started");
 		OutStationOneWay oso=new OutStationOneWay(driver);
 		OneWay onw=new OneWay(driver);
 		WaitUtils.waitForSeconds(2);
@@ -70,5 +75,6 @@ public class OutStationOneWayTest extends BaseTest {
         oso.clickCancelOption();
         oso.selectCancelReason();
         oso.confirmCancelYes();
+        logger.info("OutStation OneWay Cancel Succesful");
 	}
 }
