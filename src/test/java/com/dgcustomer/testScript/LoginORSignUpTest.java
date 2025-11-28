@@ -21,7 +21,7 @@ public class LoginORSignUpTest extends BaseTest {
         logger.info("Clicked Login/Proceed button");
         
         WaitUtils.waitForSeconds(10);
-        login.clickProceed();
+        login.clickVerify();
         logger.info("OTP verified");
         
         logger.info("Login/SignUp page Test Ended");

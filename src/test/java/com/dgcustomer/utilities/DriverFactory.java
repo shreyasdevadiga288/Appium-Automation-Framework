@@ -33,6 +33,8 @@ public class DriverFactory {
 
             options.setCapability("ignoreHiddenApiPolicyError", 
                     Boolean.parseBoolean(props.getProperty("ignoreHiddenApiPolicyError")));
+            options.setCapability("autoGrantPermissions", 
+                    Boolean.parseBoolean(props.getProperty("ignoreHiddenApiPolicyError")));
 
             driver = new AndroidDriver(new URL(props.getProperty("serverURL")), options);
         }

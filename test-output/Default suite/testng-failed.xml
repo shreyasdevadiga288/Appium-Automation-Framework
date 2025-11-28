@@ -3,17 +3,34 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.dgcustomer.testScript.LoginORSignUpTest">
+      <class name="com.dgcustomer.testScript.TC01_VerifyContentTest">
         <methods>
-          <include name="testEnterNumberLoginWithOtp"/>
-          <include name="startTest"/>
-          <include name="captureResult"/>
+          <include name="testWelcomeMessage"/>
+          <include name="testCarWashContent"/>
+          <include name="testSavePresentContent"/>
+          <include name="testHireDriverContent"/>
+          <include name="testOneWayContent"/>
+          <include name="testDgRewardContent"/>
           <include name="flushReport"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="testClickLogin"/>
           <include name="setupReport"/>
+          <include name="testOutStationContent"/>
+          <include name="testRoundTripContent"/>
+          <include name="testCarServiceContent"/>
+          <include name="testPickUpLocationContent"/>
+          <include name="testDgWalletContent"/>
+          <include name="testOtpVerificationAndVerify"/>
+          <include name="startTest"/>
+          <include name="captureResult"/>
+          <include name="testDgCoinsContent"/>
+          <include name="logoutTest"/>
+          <include name="tearDown"/>
+          <include name="testSaveAddressContent"/>
+          <include name="testEnterMobileNumber"/>
+          <include name="settingtTest"/>
         </methods>
-      </class> <!-- com.dgcustomer.testScript.LoginORSignUpTest -->
+      </class> <!-- com.dgcustomer.testScript.TC01_VerifyContentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

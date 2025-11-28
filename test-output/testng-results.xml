@@ -1,986 +1,497 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="6" failed="8" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-14T17:35:49 IST" name="DriveGenie Suite" finished-at="2025-11-14T17:41:15 IST" duration-ms="326011">
+  <suite started-at="2025-11-26T16:05:02 IST" name="Default suite" finished-at="2025-11-26T16:06:59 IST" duration-ms="116247">
     <groups>
     </groups>
-    <test started-at="2025-11-14T17:35:49 IST" name="DriveGenie Tests" finished-at="2025-11-14T17:41:15 IST" duration-ms="326011">
-      <class name="com.dgcustomer.testScript.CreateProfileTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dgcustomer.testScript.CreateProfileTest@6175619b]" started-at="2025-11-14T17:36:40 IST" name="setUp" finished-at="2025-11-14T17:36:57 IST" duration-ms="17907" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.CreateProfileTest@6175619b]" started-at="2025-11-14T17:36:57 IST" name="startTest" finished-at="2025-11-14T17:36:57 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.CreateProfileTest.testCreateProfile()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testCreateProfile()[pri:1, instance:com.dgcustomer.testScript.CreateProfileTest@6175619b]" started-at="2025-11-14T17:36:57 IST" name="testCreateProfile" finished-at="2025-11-14T17:37:09 IST" duration-ms="11414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCreateProfile -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.CreateProfileTest@6175619b]" started-at="2025-11-14T17:37:09 IST" name="captureResult" finished-at="2025-11-14T17:37:09 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCreateProfile status=SUCCESS method=CreateProfileTest.testCreateProfile()[pri:1, instance:com.dgcustomer.testScript.CreateProfileTest@6175619b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dgcustomer.testScript.CreateProfileTest@6175619b]" started-at="2025-11-14T17:37:09 IST" name="tearDown" finished-at="2025-11-14T17:37:10 IST" duration-ms="863" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dgcustomer.testScript.CreateProfileTest -->
-      <class name="com.dgcustomer.testScript.OutStationOneWayTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:39:29 IST" name="setUp" finished-at="2025-11-14T17:39:47 IST" duration-ms="18234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:39:47 IST" name="startTest" finished-at="2025-11-14T17:39:47 IST" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.OutStationOneWayTest.testOutStationOneWay() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testOutStationOneWay()[pri:1, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:39:47 IST" name="testOutStationOneWay" finished-at="2025-11-14T17:40:18 IST" duration-ms="30960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOutStationOneWay -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:40:18 IST" name="captureResult" finished-at="2025-11-14T17:40:18 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testOutStationOneWay status=SUCCESS method=OutStationOneWayTest.testOutStationOneWay()[pri:1, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:40:18 IST" name="startTest" finished-at="2025-11-14T17:40:18 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.OutStationOneWayTest.testOutStationOneWayReschedule() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testOutStationOneWayReschedule()[pri:2, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:40:18 IST" name="testOutStationOneWayReschedule" finished-at="2025-11-14T17:40:30 IST" duration-ms="12022" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [1de0bd78-b3f0-4a74-9ad5-94e04392881f, findElement {value=//android.widget.Button[@content-desc="okay"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 1de0bd78-b3f0-4a74-9ad5-94e04392881f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [1de0bd78-b3f0-4a74-9ad5-94e04392881f, findElement {value=//android.widget.Button[@content-desc="okay"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 1de0bd78-b3f0-4a74-9ad5-94e04392881f
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.dgcustomer.payload.OutStationOneWay.clickRescheduleOkayBtn(OutStationOneWay.java:154)
-at com.dgcustomer.testScript.OutStationOneWayTest.testOutStationOneWayReschedule(OutStationOneWayTest.java:61)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOutStationOneWayReschedule -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:40:30 IST" name="captureResult" finished-at="2025-11-14T17:40:31 IST" duration-ms="1227" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testOutStationOneWayReschedule status=FAILURE method=OutStationOneWayTest.testOutStationOneWayReschedule()[pri:2, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:40:31 IST" name="startTest" finished-at="2025-11-14T17:40:31 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.OutStationOneWayTest.testOutStationOneWayCancel() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testOutStationOneWayCancel()[pri:3, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:40:31 IST" name="testOutStationOneWayCancel" finished-at="2025-11-14T17:40:34 IST" duration-ms="2937" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [1de0bd78-b3f0-4a74-9ad5-94e04392881f, findElement {value=//android.widget.Button[@content-desc="Cancel"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 1de0bd78-b3f0-4a74-9ad5-94e04392881f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [1de0bd78-b3f0-4a74-9ad5-94e04392881f, findElement {value=//android.widget.Button[@content-desc="Cancel"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 1de0bd78-b3f0-4a74-9ad5-94e04392881f
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.dgcustomer.payload.OutStationOneWay.clickCancelRide(OutStationOneWay.java:159)
-at com.dgcustomer.testScript.OutStationOneWayTest.testOutStationOneWayCancel(OutStationOneWayTest.java:74)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOutStationOneWayCancel -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:40:34 IST" name="captureResult" finished-at="2025-11-14T17:40:35 IST" duration-ms="1088" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testOutStationOneWayCancel status=FAILURE method=OutStationOneWayTest.testOutStationOneWayCancel()[pri:3, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dgcustomer.testScript.OutStationOneWayTest@3f2ef586]" started-at="2025-11-14T17:40:35 IST" name="tearDown" finished-at="2025-11-14T17:40:36 IST" duration-ms="1190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dgcustomer.testScript.OutStationOneWayTest -->
-      <class name="com.dgcustomer.testScript.LoginORSignUpTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.dgcustomer.testScript.LoginORSignUpTest@72bd06ca]" started-at="2025-11-14T17:35:48 IST" name="setupReport" finished-at="2025-11-14T17:35:49 IST" duration-ms="1364" status="PASS">
+    <test started-at="2025-11-26T16:05:02 IST" name="Default test" finished-at="2025-11-26T16:06:59 IST" duration-ms="116247">
+      <class name="com.dgcustomer.testScript.TC01_VerifyContentTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:01 IST" name="setupReport" finished-at="2025-11-26T16:05:02 IST" duration-ms="1223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dgcustomer.testScript.LoginORSignUpTest@72bd06ca]" started-at="2025-11-14T17:35:49 IST" name="setUp" finished-at="2025-11-14T17:36:13 IST" duration-ms="23254" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:02 IST" name="setUp" finished-at="2025-11-26T16:05:25 IST" duration-ms="22199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.LoginORSignUpTest@72bd06ca]" started-at="2025-11-14T17:36:13 IST" name="startTest" finished-at="2025-11-14T17:36:13 IST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:25 IST" name="startTest" finished-at="2025-11-26T16:05:25 IST" duration-ms="35" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.dgcustomer.testScript.LoginORSignUpTest.testEnterNumberLoginWithOtp()]]>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testEnterMobileNumber()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="testEnterNumberLoginWithOtp()[pri:1, instance:com.dgcustomer.testScript.LoginORSignUpTest@72bd06ca]" started-at="2025-11-14T17:36:13 IST" name="testEnterNumberLoginWithOtp" description="Enter the phone number and validate otp" finished-at="2025-11-14T17:36:39 IST" duration-ms="25915" status="PASS">
+        <test-method signature="testEnterMobileNumber()[pri:1, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:25 IST" name="testEnterMobileNumber" finished-at="2025-11-26T16:05:34 IST" duration-ms="8808" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEnterNumberLoginWithOtp -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.LoginORSignUpTest@72bd06ca]" started-at="2025-11-14T17:36:39 IST" name="captureResult" finished-at="2025-11-14T17:36:39 IST" duration-ms="50" status="PASS">
+        </test-method> <!-- testEnterMobileNumber -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:34 IST" name="captureResult" finished-at="2025-11-26T16:05:34 IST" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testEnterNumberLoginWithOtp status=SUCCESS method=LoginORSignUpTest.testEnterNumberLoginWithOtp()[pri:1, instance:com.dgcustomer.testScript.LoginORSignUpTest@72bd06ca] output={null}]]]>
+                <![CDATA[[TestResult name=testEnterMobileNumber status=SUCCESS method=TC01_VerifyContentTest.testEnterMobileNumber()[pri:1, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dgcustomer.testScript.LoginORSignUpTest@72bd06ca]" started-at="2025-11-14T17:36:39 IST" name="tearDown" finished-at="2025-11-14T17:36:40 IST" duration-ms="917" status="PASS">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:34 IST" name="startTest" finished-at="2025-11-26T16:05:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testClickLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testClickLogin()[pri:2, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:34 IST" name="testClickLogin" finished-at="2025-11-26T16:05:37 IST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickLogin -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:37 IST" name="captureResult" finished-at="2025-11-26T16:05:37 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickLogin status=SUCCESS method=TC01_VerifyContentTest.testClickLogin()[pri:2, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:37 IST" name="startTest" finished-at="2025-11-26T16:05:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testOtpVerificationAndVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testOtpVerificationAndVerify()[pri:3, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:37 IST" name="testOtpVerificationAndVerify" finished-at="2025-11-26T16:05:58 IST" duration-ms="21629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOtpVerificationAndVerify -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:58 IST" name="captureResult" finished-at="2025-11-26T16:05:58 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOtpVerificationAndVerify status=SUCCESS method=TC01_VerifyContentTest.testOtpVerificationAndVerify()[pri:3, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:58 IST" name="startTest" finished-at="2025-11-26T16:05:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testWelcomeMessage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testWelcomeMessage()[pri:4, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:05:58 IST" name="testWelcomeMessage" finished-at="2025-11-26T16:06:07 IST" duration-ms="8376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWelcomeMessage -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:07 IST" name="captureResult" finished-at="2025-11-26T16:06:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWelcomeMessage status=SUCCESS method=TC01_VerifyContentTest.testWelcomeMessage()[pri:4, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:07 IST" name="startTest" finished-at="2025-11-26T16:06:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testOneWayContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testOneWayContent()[pri:5, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:07 IST" name="testOneWayContent" finished-at="2025-11-26T16:06:10 IST" duration-ms="3376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneWayContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:10 IST" name="captureResult" finished-at="2025-11-26T16:06:10 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOneWayContent status=SUCCESS method=TC01_VerifyContentTest.testOneWayContent()[pri:5, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:10 IST" name="startTest" finished-at="2025-11-26T16:06:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testRoundTripContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testRoundTripContent()[pri:6, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:10 IST" name="testRoundTripContent" finished-at="2025-11-26T16:06:14 IST" duration-ms="3447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRoundTripContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:14 IST" name="captureResult" finished-at="2025-11-26T16:06:14 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRoundTripContent status=SUCCESS method=TC01_VerifyContentTest.testRoundTripContent()[pri:6, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:14 IST" name="startTest" finished-at="2025-11-26T16:06:14 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testOutStationContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testOutStationContent()[pri:7, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:14 IST" name="testOutStationContent" finished-at="2025-11-26T16:06:19 IST" duration-ms="5353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOutStationContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:19 IST" name="captureResult" finished-at="2025-11-26T16:06:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOutStationContent status=SUCCESS method=TC01_VerifyContentTest.testOutStationContent()[pri:7, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:19 IST" name="startTest" finished-at="2025-11-26T16:06:19 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testPickUpLocationContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testPickUpLocationContent()[pri:8, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:19 IST" name="testPickUpLocationContent" finished-at="2025-11-26T16:06:23 IST" duration-ms="3507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickUpLocationContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:23 IST" name="captureResult" finished-at="2025-11-26T16:06:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickUpLocationContent status=SUCCESS method=TC01_VerifyContentTest.testPickUpLocationContent()[pri:8, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:23 IST" name="startTest" finished-at="2025-11-26T16:06:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testHireDriverContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testHireDriverContent()[pri:9, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:23 IST" name="testHireDriverContent" finished-at="2025-11-26T16:06:26 IST" duration-ms="3362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHireDriverContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:26 IST" name="captureResult" finished-at="2025-11-26T16:06:26 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHireDriverContent status=SUCCESS method=TC01_VerifyContentTest.testHireDriverContent()[pri:9, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:26 IST" name="startTest" finished-at="2025-11-26T16:06:26 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testCarWashContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testCarWashContent()[pri:10, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:26 IST" name="testCarWashContent" finished-at="2025-11-26T16:06:30 IST" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarWashContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:30 IST" name="captureResult" finished-at="2025-11-26T16:06:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCarWashContent status=SUCCESS method=TC01_VerifyContentTest.testCarWashContent()[pri:10, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:30 IST" name="startTest" finished-at="2025-11-26T16:06:30 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testCarServiceContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testCarServiceContent()[pri:11, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:30 IST" name="testCarServiceContent" finished-at="2025-11-26T16:06:33 IST" duration-ms="3502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarServiceContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:33 IST" name="captureResult" finished-at="2025-11-26T16:06:33 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCarServiceContent status=SUCCESS method=TC01_VerifyContentTest.testCarServiceContent()[pri:11, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:33 IST" name="startTest" finished-at="2025-11-26T16:06:33 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testDgWalletContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testDgWalletContent()[pri:12, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:33 IST" name="testDgWalletContent" finished-at="2025-11-26T16:06:38 IST" duration-ms="4367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDgWalletContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:38 IST" name="captureResult" finished-at="2025-11-26T16:06:38 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDgWalletContent status=SUCCESS method=TC01_VerifyContentTest.testDgWalletContent()[pri:12, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:38 IST" name="startTest" finished-at="2025-11-26T16:06:38 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testDgCoinsContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testDgCoinsContent()[pri:13, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:38 IST" name="testDgCoinsContent" finished-at="2025-11-26T16:06:41 IST" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDgCoinsContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:41 IST" name="captureResult" finished-at="2025-11-26T16:06:41 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDgCoinsContent status=SUCCESS method=TC01_VerifyContentTest.testDgCoinsContent()[pri:13, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:41 IST" name="startTest" finished-at="2025-11-26T16:06:41 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testSaveAddressContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testSaveAddressContent()[pri:14, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:41 IST" name="testSaveAddressContent" finished-at="2025-11-26T16:06:45 IST" duration-ms="3339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveAddressContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:45 IST" name="captureResult" finished-at="2025-11-26T16:06:45 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSaveAddressContent status=SUCCESS method=TC01_VerifyContentTest.testSaveAddressContent()[pri:14, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:45 IST" name="startTest" finished-at="2025-11-26T16:06:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testDgRewardContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testDgRewardContent()[pri:15, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:45 IST" name="testDgRewardContent" finished-at="2025-11-26T16:06:49 IST" duration-ms="3975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDgRewardContent -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:49 IST" name="captureResult" finished-at="2025-11-26T16:06:49 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDgRewardContent status=SUCCESS method=TC01_VerifyContentTest.testDgRewardContent()[pri:15, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:49 IST" name="startTest" finished-at="2025-11-26T16:06:49 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.testProfileClick() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="testProfileClick()[pri:16, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:49 IST" name="testProfileClick" finished-at="2025-11-26T16:06:52 IST" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProfileClick -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:52 IST" name="captureResult" finished-at="2025-11-26T16:06:52 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProfileClick status=SUCCESS method=TC01_VerifyContentTest.testProfileClick()[pri:16, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:52 IST" name="startTest" finished-at="2025-11-26T16:06:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.settingtTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="settingtTest()[pri:17, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:52 IST" name="settingtTest" finished-at="2025-11-26T16:06:53 IST" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingtTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:53 IST" name="captureResult" finished-at="2025-11-26T16:06:53 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=settingtTest status=SUCCESS method=TC01_VerifyContentTest.settingtTest()[pri:17, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:53 IST" name="startTest" finished-at="2025-11-26T16:06:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dgcustomer.testScript.TC01_VerifyContentTest.logoutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="logoutTest()[pri:18, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:53 IST" name="logoutTest" finished-at="2025-11-26T16:06:57 IST" duration-ms="4355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:57 IST" name="captureResult" finished-at="2025-11-26T16:06:57 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutTest status=SUCCESS method=TC01_VerifyContentTest.logoutTest()[pri:18, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:57 IST" name="tearDown" finished-at="2025-11-26T16:06:59 IST" duration-ms="1146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.dgcustomer.testScript.LoginORSignUpTest@72bd06ca]" started-at="2025-11-14T17:41:15 IST" name="flushReport" finished-at="2025-11-14T17:41:17 IST" duration-ms="2038" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.dgcustomer.testScript.TC01_VerifyContentTest@3f2ef586]" started-at="2025-11-26T16:06:59 IST" name="flushReport" finished-at="2025-11-26T16:07:01 IST" duration-ms="1886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
-      </class> <!-- com.dgcustomer.testScript.LoginORSignUpTest -->
-      <class name="com.dgcustomer.testScript.OneWayTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:37:10 IST" name="setUp" finished-at="2025-11-14T17:37:20 IST" duration-ms="10663" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:37:20 IST" name="startTest" finished-at="2025-11-14T17:37:20 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.OneWayTest.testHireDriverForOneWay() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testHireDriverForOneWay()[pri:1, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:37:20 IST" name="testHireDriverForOneWay" finished-at="2025-11-14T17:37:59 IST" duration-ms="38178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHireDriverForOneWay -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:37:59 IST" name="captureResult" finished-at="2025-11-14T17:37:59 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testHireDriverForOneWay status=SUCCESS method=OneWayTest.testHireDriverForOneWay()[pri:1, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:37:59 IST" name="startTest" finished-at="2025-11-14T17:37:59 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.OneWayTest.testRescheduleRideForoneWay() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testRescheduleRideForoneWay()[pri:2, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:37:59 IST" name="testRescheduleRideForoneWay" finished-at="2025-11-14T17:38:19 IST" duration-ms="20372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRescheduleRideForoneWay -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:38:19 IST" name="captureResult" finished-at="2025-11-14T17:38:19 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testRescheduleRideForoneWay status=SUCCESS method=OneWayTest.testRescheduleRideForoneWay()[pri:2, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:38:19 IST" name="startTest" finished-at="2025-11-14T17:38:19 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.OneWayTest.testCancelRideForOneWay() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testCancelRideForOneWay()[pri:3, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:38:19 IST" name="testCancelRideForOneWay" finished-at="2025-11-14T17:38:27 IST" duration-ms="7892" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCancelRideForOneWay -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:38:27 IST" name="captureResult" finished-at="2025-11-14T17:38:27 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCancelRideForOneWay status=SUCCESS method=OneWayTest.testCancelRideForOneWay()[pri:3, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dgcustomer.testScript.OneWayTest@2f058b8a]" started-at="2025-11-14T17:38:27 IST" name="tearDown" finished-at="2025-11-14T17:38:28 IST" duration-ms="1058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dgcustomer.testScript.OneWayTest -->
-      <class name="com.dgcustomer.testScript.OutStationRoundTriptest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:40:36 IST" name="setUp" finished-at="2025-11-14T17:40:59 IST" duration-ms="23134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:40:59 IST" name="startTest" finished-at="2025-11-14T17:40:59 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.OutStationRoundTriptest.testOutStatioRoundTrip() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testOutStatioRoundTrip()[pri:1, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:40:59 IST" name="testOutStatioRoundTrip" finished-at="2025-11-14T17:41:05 IST" duration-ms="5640" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [ed3fbbb4-1c3b-4627-981e-944df832f3d7, findElement {value=//android.widget.ImageView[@content-desc="Out Station"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: ed3fbbb4-1c3b-4627-981e-944df832f3d7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [ed3fbbb4-1c3b-4627-981e-944df832f3d7, findElement {value=//android.widget.ImageView[@content-desc="Out Station"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: ed3fbbb4-1c3b-4627-981e-944df832f3d7
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.dgcustomer.payload.OutStationRoundTrip.clickOutStationBtn(OutStationRoundTrip.java:50)
-at com.dgcustomer.testScript.OutStationRoundTriptest.testOutStatioRoundTrip(OutStationRoundTriptest.java:17)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOutStatioRoundTrip -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:41:05 IST" name="captureResult" finished-at="2025-11-14T17:41:06 IST" duration-ms="846" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testOutStatioRoundTrip status=FAILURE method=OutStationRoundTriptest.testOutStatioRoundTrip()[pri:1, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:41:06 IST" name="startTest" finished-at="2025-11-14T17:41:06 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.OutStationRoundTriptest.testOutStationRoundTripReschedule() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testOutStationRoundTripReschedule()[pri:2, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:41:06 IST" name="testOutStationRoundTripReschedule" finished-at="2025-11-14T17:41:09 IST" duration-ms="2951" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [ed3fbbb4-1c3b-4627-981e-944df832f3d7, findElement {value=//android.widget.Button[@content-desc="Reschedule"]
-, using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: ed3fbbb4-1c3b-4627-981e-944df832f3d7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [ed3fbbb4-1c3b-4627-981e-944df832f3d7, findElement {value=//android.widget.Button[@content-desc="Reschedule"]
-, using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: ed3fbbb4-1c3b-4627-981e-944df832f3d7
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.dgcustomer.payload.OutStationRoundTrip.clickRescheduleBtn(OutStationRoundTrip.java:119)
-at com.dgcustomer.testScript.OutStationRoundTriptest.testOutStationRoundTripReschedule(OutStationRoundTriptest.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOutStationRoundTripReschedule -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:41:09 IST" name="captureResult" finished-at="2025-11-14T17:41:10 IST" duration-ms="776" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testOutStationRoundTripReschedule status=FAILURE method=OutStationRoundTriptest.testOutStationRoundTripReschedule()[pri:2, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:41:10 IST" name="startTest" finished-at="2025-11-14T17:41:10 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.OutStationRoundTriptest.testOutStationRoundTripCancel() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testOutStationRoundTripCancel()[pri:3, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:41:10 IST" name="testOutStationRoundTripCancel" finished-at="2025-11-14T17:41:13 IST" duration-ms="2984" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [ed3fbbb4-1c3b-4627-981e-944df832f3d7, findElement {value=//android.widget.Button[@content-desc="Cancel"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: ed3fbbb4-1c3b-4627-981e-944df832f3d7]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [ed3fbbb4-1c3b-4627-981e-944df832f3d7, findElement {value=//android.widget.Button[@content-desc="Cancel"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: ed3fbbb4-1c3b-4627-981e-944df832f3d7
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.dgcustomer.payload.OutStationRoundTrip.clickCancelRide(OutStationRoundTrip.java:152)
-at com.dgcustomer.testScript.OutStationRoundTriptest.testOutStationRoundTripCancel(OutStationRoundTriptest.java:65)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOutStationRoundTripCancel -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:41:13 IST" name="captureResult" finished-at="2025-11-14T17:41:14 IST" duration-ms="1344" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testOutStationRoundTripCancel status=FAILURE method=OutStationRoundTriptest.testOutStationRoundTripCancel()[pri:3, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dgcustomer.testScript.OutStationRoundTriptest@751d3241]" started-at="2025-11-14T17:41:14 IST" name="tearDown" finished-at="2025-11-14T17:41:15 IST" duration-ms="953" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dgcustomer.testScript.OutStationRoundTriptest -->
-      <class name="com.dgcustomer.testScript.RoundTripTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:38:28 IST" name="setUp" finished-at="2025-11-14T17:38:47 IST" duration-ms="18757" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:38:47 IST" name="startTest" finished-at="2025-11-14T17:38:47 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.RoundTripTest.testScheduleRideForRoundTrip() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testScheduleRideForRoundTrip()[pri:1, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:38:47 IST" name="testScheduleRideForRoundTrip" finished-at="2025-11-14T17:39:15 IST" duration-ms="28189" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Cannot invoke method boolean androidx.test.uiautomator.InteractionController.injectEventSync(android.view.InputEvent) on object androidx.test.uiautomator.InteractionController@65b3f5b with parameters [MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=766.5517, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=57917864, downTime=57917323, deviceId=0, source=0x1002, displayId=0 }]
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [5e207377-90e5-4f93-8a0b-3bdde5c4c0ec, actions {actions=[org.openqa.selenium.interactions.Sequence@3a7e365]}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 5e207377-90e5-4f93-8a0b-3bdde5c4c0ec]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Cannot invoke method boolean androidx.test.uiautomator.InteractionController.injectEventSync(android.view.InputEvent) on object androidx.test.uiautomator.InteractionController@65b3f5b with parameters [MotionEvent { action=ACTION_MOVE, actionButton=0, id[0]=0, x[0]=540.0, y[0]=766.5517, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=57917864, downTime=57917323, deviceId=0, source=0x1002, displayId=0 }]
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [5e207377-90e5-4f93-8a0b-3bdde5c4c0ec, actions {actions=[org.openqa.selenium.interactions.Sequence@3a7e365]}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 5e207377-90e5-4f93-8a0b-3bdde5c4c0ec
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
-at com.dgcustomer.payload.OneWay.scrollDown(OneWay.java:215)
-at com.dgcustomer.testScript.RoundTripTest.testScheduleRideForRoundTrip(RoundTripTest.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testScheduleRideForRoundTrip -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:39:15 IST" name="captureResult" finished-at="2025-11-14T17:39:16 IST" duration-ms="659" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testScheduleRideForRoundTrip status=FAILURE method=RoundTripTest.testScheduleRideForRoundTrip()[pri:1, instance:com.dgcustomer.testScript.RoundTripTest@756cf158] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:39:16 IST" name="startTest" finished-at="2025-11-14T17:39:16 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.RoundTripTest.testRescheduleRideForRoundTrip() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testRescheduleRideForRoundTrip()[pri:2, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:39:16 IST" name="testRescheduleRideForRoundTrip" finished-at="2025-11-14T17:39:21 IST" duration-ms="5069" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [5e207377-90e5-4f93-8a0b-3bdde5c4c0ec, findElement {value=//android.widget.Button[@content-desc="Reschedule"]
-, using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 5e207377-90e5-4f93-8a0b-3bdde5c4c0ec]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [5e207377-90e5-4f93-8a0b-3bdde5c4c0ec, findElement {value=//android.widget.Button[@content-desc="Reschedule"]
-, using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 5e207377-90e5-4f93-8a0b-3bdde5c4c0ec
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.dgcustomer.payload.RoundTrip.clickRescheduleBtn(RoundTrip.java:139)
-at com.dgcustomer.testScript.RoundTripTest.testRescheduleRideForRoundTrip(RoundTripTest.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRescheduleRideForRoundTrip -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:39:21 IST" name="captureResult" finished-at="2025-11-14T17:39:22 IST" duration-ms="978" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testRescheduleRideForRoundTrip status=FAILURE method=RoundTripTest.testRescheduleRideForRoundTrip()[pri:2, instance:com.dgcustomer.testScript.RoundTripTest@756cf158] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:39:22 IST" name="startTest" finished-at="2025-11-14T17:39:22 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.dgcustomer.testScript.RoundTripTest.testCancelRideForRoundTrip() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method signature="testCancelRideForRoundTrip()[pri:3, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:39:22 IST" name="testCancelRideForRoundTrip" finished-at="2025-11-14T17:39:27 IST" duration-ms="5064" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [5e207377-90e5-4f93-8a0b-3bdde5c4c0ec, findElement {value=//android.widget.Button[@content-desc="Cancel"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 5e207377-90e5-4f93-8a0b-3bdde5c4c0ec]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.22.0', revision: 'c5f3146703*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [5e207377-90e5-4f93-8a0b-3bdde5c4c0ec, findElement {value=//android.widget.Button[@content-desc="Cancel"], using=xpath}]
-Capabilities {appium:appActivity: com.techspiration.dgcustome..., appium:appPackage: com.techspiration.dgcustomer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.techspiration.dgcustome..., appPackage: com.techspiration.dgcustomer, automationName: UiAutomator2, deviceName: Redmi Note 8 Pro, fullReset: false, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, platformVersion: 11, udid: 6h69rgroeqvkoz59}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: 6h69rgroeqvkoz59, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 6h69rgroeqvkoz59, appium:fullReset: false, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:udid: 6h69rgroeqvkoz59, appium:viewportRect: {height: 2264, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 5e207377-90e5-4f93-8a0b-3bdde5c4c0ec
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.dgcustomer.payload.RoundTrip.clickCancelRide(RoundTrip.java:172)
-at com.dgcustomer.testScript.RoundTripTest.testCancelRideForRoundTrip(RoundTripTest.java:67)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCancelRideForRoundTrip -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:39:27 IST" name="captureResult" finished-at="2025-11-14T17:39:28 IST" duration-ms="768" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCancelRideForRoundTrip status=FAILURE method=RoundTripTest.testCancelRideForRoundTrip()[pri:3, instance:com.dgcustomer.testScript.RoundTripTest@756cf158] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dgcustomer.testScript.RoundTripTest@756cf158]" started-at="2025-11-14T17:39:28 IST" name="tearDown" finished-at="2025-11-14T17:39:29 IST" duration-ms="974" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dgcustomer.testScript.RoundTripTest -->
-    </test> <!-- DriveGenie Tests -->
-  </suite> <!-- DriveGenie Suite -->
+      </class> <!-- com.dgcustomer.testScript.TC01_VerifyContentTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

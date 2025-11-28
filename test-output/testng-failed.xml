@@ -1,46 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [DriveGenie Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="DriveGenie Tests(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.dgcustomer.testScript.RoundTripTest">
+      <class name="com.dgcustomer.testScript.TC01_VerifyContentTest">
         <methods>
-          <include name="testCancelRideForRoundTrip"/>
-          <include name="startTest"/>
-          <include name="captureResult"/>
-          <include name="testRescheduleRideForRoundTrip"/>
+          <include name="testWelcomeMessage"/>
+          <include name="testCarWashContent"/>
+          <include name="testSavePresentContent"/>
+          <include name="testHireDriverContent"/>
+          <include name="testOneWayContent"/>
+          <include name="testDgRewardContent"/>
           <include name="flushReport"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="testClickLogin"/>
           <include name="setupReport"/>
-          <include name="testScheduleRideForRoundTrip"/>
-        </methods>
-      </class> <!-- com.dgcustomer.testScript.RoundTripTest -->
-      <class name="com.dgcustomer.testScript.OutStationOneWayTest">
-        <methods>
-          <include name="startTest"/>
-          <include name="testOutStationOneWayReschedule"/>
-          <include name="captureResult"/>
-          <include name="testOutStationOneWayCancel"/>
-          <include name="flushReport"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="setupReport"/>
-        </methods>
-      </class> <!-- com.dgcustomer.testScript.OutStationOneWayTest -->
-      <class name="com.dgcustomer.testScript.OutStationRoundTriptest">
-        <methods>
+          <include name="testOutStationContent"/>
+          <include name="testRoundTripContent"/>
+          <include name="testCarServiceContent"/>
+          <include name="testPickUpLocationContent"/>
+          <include name="testDgWalletContent"/>
+          <include name="testOtpVerificationAndVerify"/>
           <include name="startTest"/>
           <include name="captureResult"/>
-          <include name="testOutStationRoundTripCancel"/>
-          <include name="flushReport"/>
-          <include name="testOutStationRoundTripReschedule"/>
-          <include name="setUp"/>
+          <include name="testDgCoinsContent"/>
+          <include name="logoutTest"/>
           <include name="tearDown"/>
-          <include name="testOutStatioRoundTrip"/>
-          <include name="setupReport"/>
+          <include name="testSaveAddressContent"/>
+          <include name="testEnterMobileNumber"/>
+          <include name="settingtTest"/>
         </methods>
-      </class> <!-- com.dgcustomer.testScript.OutStationRoundTriptest -->
+      </class> <!-- com.dgcustomer.testScript.TC01_VerifyContentTest -->
     </classes>
-  </test> <!-- DriveGenie Tests(failed) -->
-</suite> <!-- Failed suite [DriveGenie Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
